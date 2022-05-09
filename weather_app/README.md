@@ -8,5 +8,4 @@ Applicatino knows your current location and displays the weather. Also, you can 
     - Riverpod
   Service API:
      - WeatherAPI (openweathermap.org)
-     
-   ![Screenshot_1652109089](https://user-images.githubusercontent.com/67066911/167440689-1e4e0a0d-959b-4ec3-8f85-c4772f235688.png)
+  <img src="https://user-images.githubusercontent.com/67066911/167440689-1e4e0a0d-959b-4ec3-8f85-c4772f235688.png" width="450" title="hover text">
