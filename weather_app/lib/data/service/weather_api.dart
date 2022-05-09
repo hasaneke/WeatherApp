@@ -9,14 +9,14 @@ class WeatherApi {
   Uri _generateUrlForLatLong(
       {required double latitude, required double longitude}) {
     String url =
-        "https://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitude&appid=0adeb73794be5ed776d30c079c98f7e7";
+        "https://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitude&appid=%key%";
     return Uri.parse(url);
   }
 
   Uri _generateURLforCityName({required String city}) {
     String url = "https://api.openweathermap.org/data/2.5/weather?q=" +
         city +
-        "&appid=0adeb73794be5ed776d30c079c98f7e7";
+        "&appid=%key%";
     return Uri.parse(url);
   }
 
